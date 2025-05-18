@@ -2,7 +2,7 @@ body,
 html {
 	height: 100%;
 	margin: 0;
-	background: rgb(44, 47, 59);
+	background: rgb(141, 130, 44);
 	background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
 	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
 }
@@ -13,9 +13,10 @@ html {
 }
 
 .card {
-	height: 500px;
+	height: 750px;
+	width: 800PX;
 	border-radius: 15px !important;
-	background-color: rgba(0, 0, 0, 0.4) !important;
+	background-color: #69dc83 !important;
 }
 
 .contacts_body {
@@ -44,7 +45,7 @@ html {
 
 .search {
 	border-radius: 15px 0 0 15px !important;
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(251, 249, 249, 0.3) !important;
 	border: 0 !important;
 	color: white !important;
 }
@@ -55,9 +56,9 @@ html {
 }
 
 .type_msg {
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: white !important;
 	border: 0 !important;
-	color: white !important;
+	color: black !important;
 	height: 60px !important;
 	overflow-y: auto;
 }
@@ -116,7 +117,7 @@ html {
 .user_img_msg {
 	height: 40px;
 	width: 40px;
-	border: 1.5px solid #f5f6fa;
+	
 
 }
 
@@ -135,7 +136,7 @@ html {
 	position: absolute;
 	height: 15px;
 	width: 15px;
-	background-color: #4cd137;
+	background-color: #69cf70;
 	border-radius: 50%;
 	bottom: 0.2em;
 	right: 0.4em;
@@ -158,7 +159,7 @@ html {
 }
 
 .user_info p {
-	font-size: 10px;
+	font-size: 15px;
 	color: rgba(255, 255, 255, 0.6);
 }
 
@@ -179,7 +180,7 @@ html {
 	margin-bottom: auto;
 	margin-left: 10px;
 	border-radius: 25px;
-	background-color: rgb(82, 172, 255);
+	background-color: #e9ecef;
 	padding: 10px;
 	position: relative;
 }
@@ -189,7 +190,7 @@ html {
 	margin-bottom: auto;
 	margin-right: 10px;
 	border-radius: 25px;
-	background-color: #58cc71;
+	background-color: #f8f9fa;
 	padding: 10px;
 	position: relative;
 }
